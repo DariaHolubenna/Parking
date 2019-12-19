@@ -1,0 +1,19 @@
+.root {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15px;
+  -ms-grid-columns: 150px 150px 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px 150px;
+  -ms-grid-rows: 150px 150px;
+      grid-template-rows: 150px 150px;
+  margin: 50px;
+}
+
+.root > div {
+  background-color: lightcoral;
+}
+
+.root > div.someClass {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */

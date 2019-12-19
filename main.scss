@@ -1,0 +1,15 @@
+.root{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    margin: 50px;
+
+}
+.root > div{
+    background-color: lightcoral;
+
+    &.someClass{
+        background-color: red;
+    }
+}
